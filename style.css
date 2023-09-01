@@ -1,0 +1,51 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 10px;
+  }
+  
+/* Formulaire */
+form {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+/* Label et input du formulaire */
+label, input {
+    display:inline-block; 
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+/* Tableau historique */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th {
+    width: 150px;
+    background-color: lightblue;
+    padding: 3px;
+  }
+  
+td, th {
+    border: 1px solid black;
+    padding: 3px;
+  }
+  
+/* Supprimez les styles de liste par défaut et affichez les liens en ligne */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+/* Utilisez Flexbox pour afficher les liens horizontalement */
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Espace entre les liens */
+  }
